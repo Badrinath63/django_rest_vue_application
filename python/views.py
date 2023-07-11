@@ -3,7 +3,7 @@ from administrator.forms import Contactform, Adminregisterform
 from administrator.models import Adminregistermodel, Contactmodel
 from vendors.models import Vendorregistermodel, Productmodel
 from customers.models import Customerregistermodel, Feedbackmodel
-
+// hai i am pavan
 # Create your views here.
 def about(request):
     return render(request, "about.html", {})
